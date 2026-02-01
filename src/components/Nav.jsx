@@ -1,13 +1,15 @@
 import React from 'react'
 import "./nav.scss"
 import DateTime from './DateTime'
+import applesvg from "../assets/apple.svg"
+import wifisvg from "../assets/wifi.svg"
 
 const Nav = ({windowState, setWindowState}) => {
   return (
     <nav>
         <div className='left'>
             <div className="apple-icon">
-                <img src="/src/assets/apple.svg" className='appleicon' alt="" />
+                <img src={applesvg} className='appleicon' alt="" />
             </div>
 
             <div className="nav-item">
@@ -31,7 +33,7 @@ const Nav = ({windowState, setWindowState}) => {
         </div>
         <div className="right">
             <div className="nav-icon">
-                <img src="/src/assets/wifi.svg" className='wifiicon' alt="" />
+                <img src={wifisvg} className='wifiicon' alt="" />
             </div>
 
             <div className="nav-item">
