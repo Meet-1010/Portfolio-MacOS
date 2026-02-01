@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/src/assets/image.png",
+    "image": "/image.png",
     "title": "Udhyog Unity",
     "description": "UdhyogUnity is a platform dedicated to connecting cities through local businesses. Our mission is to empower local businesses and build stronger communities through digital transformation.",
     "tags": ["React", "React Router", "Framer Motion", "Bootstrap", "Firebase"],
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "image": "/src/assets/pokedex.png",
+    "image": "/pokedex.png",
     "title": "Pokedex React Fun Project",
     "description": "A React-based Pokédex project that integrates the PokéAPI to display comprehensive Pokémon data including stats, abilities, and types. The application emphasizes component reusability, efficient state management, and responsive UI design.",
     "tags": ["React", "Tailwind CSS", "PokeAPI", "Axios", "API Integration", "JSON Data Handling"],
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "image": "/src/assets/realEstate.png",
+    "image": "/realEstate.png",
     "title": "Real-Estate App",
     "description": "Created an advanced real estate full stack web application using Next.js and Babel. Integrated and customized APIs to fetch and display real-time property data, including listings, prices, and amenities, empowering users with comprehensive and up-to-date information.",
     "tags": ["React", "Nextjs", "Firebase", "Framer Motion", "Axios", "React Router Dom"],
