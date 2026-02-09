@@ -2,6 +2,7 @@ import React from 'react'
 import MacWindow from './MacWindow'
 import "./finder.scss"
 import workpng from "../../assets/briefcase.png";
+import profilephoto from "../../../public/Profile_photo.jpg"
 
 const Finder = ({ windowName, setWindowState }) => {
   return (
@@ -9,7 +10,7 @@ const Finder = ({ windowName, setWindowState }) => {
         <div className='finder-window'>
             <div className="right">
                 <div className='imgdiv'>
-                    <img src="./public/Profile_photo.jpg" className='profile' alt="" />
+                    <img src={profilephoto} className='profile' alt="" />
                 </div>
                 <h1 className='name'>Hi, I'm Meet</h1>
                 <h3>I'm the creator of macOS Web Portfolio, which you're on right now😉</h3> 
