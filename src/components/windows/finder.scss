@@ -1,0 +1,71 @@
+.finder-window{
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    background-color: #222222;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    .left{
+        background-color: #454545;
+        height: 100%;
+        max-width: 12rem;
+        min-width: 25%;
+        display: flex;
+        justify-content: center;
+
+        .button{
+
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 2rem;
+            height: 2rem;
+            width: 8rem;
+            border-radius: 5px;
+            
+
+            img{
+                height: 1.5rem;
+            }
+
+            h3{
+                font-weight: 500;
+            }
+        }
+    }
+
+    .right{
+        padding: 2rem;
+        // background-color: aqua;
+        height: 100%;
+        width: 100%;
+
+        .imgdiv{
+            padding-left: 30%;
+        }
+        
+        .name{
+            padding-left: 32%;
+            font-weight: 500;
+        }
+
+        h3{
+            font-weight: 500;
+            margin-top: 2rem;
+        }
+
+        p{
+            font-weight: 400;
+            margin-top: 2rem;
+        }
+
+    }
+}
+
+.profile{
+    border-radius: 50%;
+    height: 13rem;
+}

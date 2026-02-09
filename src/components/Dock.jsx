@@ -16,8 +16,10 @@ const Dock = ({windowState, setWindowState}) => {
 
   return (
     <footer className='dock'>
-        <div className="icon">
-            <img src={finderpng} className='icon2 finder' alt="" />
+        <div 
+        onClick={() => {setWindowState(state => ({...state, welcome: true})) }}
+        className="icon">
+            <img src={finderpng} className='icon2 finder welcome' alt="" />
         </div>
         <div 
         onClick={() => {setWindowState(state => ({...state, github: true})) }}

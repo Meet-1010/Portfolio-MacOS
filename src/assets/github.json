@@ -11,7 +11,7 @@
   {
     "id": 2,
     "image": "/pokedex.png",
-    "title": "Pokedex React Fun Project",
+    "title": "Pokedex - React Fun Project",
     "description": "A React-based Pokédex project that integrates the PokéAPI to display comprehensive Pokémon data including stats, abilities, and types. The application emphasizes component reusability, efficient state management, and responsive UI design.",
     "tags": ["React", "Tailwind CSS", "PokeAPI", "Axios", "API Integration", "JSON Data Handling"],
     "repoLink": "https://github.com/Meet-1010/PokeDex_React_Project",
@@ -19,12 +19,12 @@
   },
   {
     "id": 3,
-    "image": "/realEstate.png",
-    "title": "Real-Estate App",
-    "description": "Created an advanced real estate full stack web application using Next.js and Babel. Integrated and customized APIs to fetch and display real-time property data, including listings, prices, and amenities, empowering users with comprehensive and up-to-date information.",
-    "tags": ["React", "Nextjs", "Firebase", "Framer Motion", "Axios", "React Router Dom"],
-    "repoLink": "https://github.com/Meet-1010/Real-Estate",
-    "demoLink": "https://real-estate08.netlify.app/"
+    "image": "/Metherium.png",
+    "title": "Metherium - My Own Business",
+    "description": "Metherium is a creative digital brand focused on building culture through bold art and design. More than just stickers, it represents a community-driven platform that blends identity and expression through a modern web experience. The site is built using React, React Router DOM, Tailwind CSS, and JavaScript, delivering a clean UI, smooth navigation, and strong brand storytelling.",
+    "tags": ["React", "React Router Dom", "Javascript", "Tailwind CSS", "Message Passing Interface"],
+    "repoLink": "https://github.com/nate1029/metherium-studio",
+    "demoLink": "https://metherium.studio/"
   },
   {
     "id": 4,
@@ -37,11 +37,11 @@
   },
   {
     "id": 5,
-    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1000",
-    "title": "TerminalX - CLI Productivity Tool",
-    "description": "A command-line interface tool built to automate repetitive developer tasks and manage local environments efficiently.",
-    "tags": ["Rust", "Clap", "Tokio", "System API"],
-    "repoLink": "https://github.com/rust-lang/rust",
-    "demoLink": null
+    "image": "/realEstate.png",
+    "title": "Real-Estate App",
+    "description": "Created an advanced real estate full stack web application using Next.js and Babel. Integrated and customized APIs to fetch and display real-time property data, including listings, prices, and amenities, empowering users with comprehensive and up-to-date information.",
+    "tags": ["React", "Nextjs", "Firebase", "Framer Motion", "Axios", "React Router Dom"],
+    "repoLink": "https://github.com/Meet-1010/Real-Estate",
+    "demoLink": "https://real-estate08.netlify.app/"
   }
 ]
