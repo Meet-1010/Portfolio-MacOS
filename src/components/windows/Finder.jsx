@@ -4,9 +4,13 @@ import "./finder.scss"
 import workpng from "../../assets/briefcase.png";
 import profilephoto from "../../../public/Profile_photo.jpg"
 
-const Finder = ({ windowName, setWindowState }) => {
+const Finder = ({ windowName, setWindowState,}) => {
+
+  let x = 50
+  let y = 80
+
   return (
-    <MacWindow windowName={windowName} setWindowState={setWindowState}>
+    <MacWindow windowName={windowName} setWindowState={setWindowState} x={x} y={y}>
         <div className='finder-window'>
             <div className="right">
                 <div className='imgdiv'>

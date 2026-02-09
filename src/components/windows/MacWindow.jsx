@@ -2,14 +2,14 @@ import React from 'react'
 import { Rnd } from 'react-rnd'
 import './window.scss'
 
-const MacWindow = ({children, width="40vw", height="40vw", windowName, setWindowState}) => {
+const MacWindow = ({children, width="44vw", height="40vw",x = 300, y = 200, windowName, setWindowState}) => {
   return (
     <Rnd
     default={{
         width: width,
         height: height,
-        x:300,
-        y:200
+        x:x,
+        y:y
     }}
     >
         <div className="window">
